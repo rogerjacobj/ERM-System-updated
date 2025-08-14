@@ -34,7 +34,7 @@
 
 .palette {  
   position: absolute;
-  bottom: 2.5rem; 
+  bottom: 1rem; 
   left: 3rem;
   transform: translateX(-50%) scaleY(0);
   transform-origin: bottom center;
