@@ -14,7 +14,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="footer-container mt-10">
+    <div className="footer-container mb-5">
       <button
         onClick={handleClick}
         className={`arrow-button transition-transform duration-300 ${expanded ? "-rotate-90" : ""}`}
@@ -23,7 +23,7 @@ const Footer = () => {
       </button>
 
       <div className={`palette transition-all duration-300 ${expanded ? "open" : ""}`}>
-        <div className="flex flex-col gap-10 py-4 transition-all duration-500">
+        <div className="flex flex-col gap-11 py-5 transition-all duration-500">
           <button onClick={toggleTheme} className="transition-transform duration-500 hover:scale-110">
             <img src={isDark ? sun : moon} alt="theme toggle" className="w-6" />
           </button>
